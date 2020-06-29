@@ -3,4 +3,6 @@ This program gives you a new mangled name based on John C. Reily's hilarious Ste
 
 topnames.txt is the file of 1000 male and 1000 female first names which are popular according to https://www.verywellfamily.com/top-1000-baby-boy-names-2757618 and https://www.verywellfamily.com/top-1000-baby-girl-names-2757832. They are skewed toward Western names but still include many of the most popular names worldwide. Reliable data for true worldwide average names was not readily available. I ran these 2000 names through the included filter namefilter.py of the algorithm to determine if any were missed, and adjusted appropriately until all 2,000 names passed. So, very few names should incur the built-in safeguard output. If a name does give the safeguard output (in which case it will be unchanged), ping me and I will adjust!
 
-In progress. (Currently running the filter tests mentioned above, namefilter.py will be posted when I am done with it)
+NOTE: I uploaded the namefilter.py file that was used at the point when 30 of the 2000 names still weren't getting changed, just to show the example. It also print the total number of unchanged names at the end. You can look at brulename.py and see what needs to be changed in namefilter.py to get none of the names to come through.
+
+In progress. (Currently running the filter tests mentioned above.)
