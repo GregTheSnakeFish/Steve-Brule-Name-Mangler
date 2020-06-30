@@ -8,7 +8,7 @@ while True:
     name = input("What's your name, Dingus? ")
     test = re.findall(' ', name)
     if name in map(''.join, it.product(*((c.upper(), c.lower()) for c in 'Steve Brule'))):
-        print("Dangit, that's my name, not your name, ya dang hunk! Type your name!")
+        print("Dangit, that's my name not your name, ya dang hunk! Type YOUR name!")
         continue
     elif name == 'David Liebe Hart':
         newname = 'Dr. Daniel Drungle Harr'
