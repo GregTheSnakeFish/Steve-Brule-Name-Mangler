@@ -5,4 +5,4 @@ topnames.txt is the file of 1000 male and 1000 female first names which are popu
 
 NOTE: I uploaded the namefilter.py file that was used at the point when 30 of the 2000 first names still weren't getting changed, just to show the example. It also prints the total number of unchanged names at the end. You can look at brulename.py and see what needs to be changed in namefilter.py to get none of the names to come through, or use it to make your own filter.
 
-In progress. (Beta version available)
+In progress. (Raw python file that mangles the names is available as 'brulename.py'.)
